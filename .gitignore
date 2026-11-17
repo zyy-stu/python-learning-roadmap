@@ -1,0 +1,26 @@
+# Python 缓存、覆盖率及构建产物
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# 本地环境
+.venv/
+venv/
+.env
+.env.local
+
+# 编辑器与操作系统
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 本地生成的站点
+site/
