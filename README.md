@@ -57,4 +57,6 @@ Python Learning Roadmap 是一套长期维护的中文开源教程。主仓库�
 
 ## 开源协议
 
-本项目采用 [MIT 许可证](LICENSE)。版权声明保留待确认字段。
+本项目采用 [MIT 许可证](LICENSE)。版权声明为 Copyright (c) 2026 ZYY。
+
+[统一质量门禁](docs/quality-gate.md) · [PLR-008 审计记录](docs/audit/README.md)
