@@ -1,0 +1,27 @@
+site_name: Python 学习路线
+site_url: https://zyy-stu.github.io/python-learning-roadmap/
+repo_url: https://github.com/zyy-stu/python-learning-roadmap
+theme:
+  name: mkdocs
+  locale: zh_CN
+plugins:
+  - search
+exclude_docs: |
+  /index.html
+  /audit/
+  /quality-gate.md
+nav:
+  - 首页: index.md
+  - 基础教程:
+    - 教程总览: tutorials/basic/index.md
+    - 变量: tutorials/basic/01-variables.md
+    - 数据类型: tutorials/basic/02-data-types.md
+    - 数值: tutorials/basic/03-numbers.md
+    - 字符串: tutorials/basic/04-strings.md
+    - 列表: tutorials/basic/05-list.md
+    - 元组: tutorials/basic/06-tuple.md
+    - 集合: tutorials/basic/07-set.md
+    - 字典: tutorials/basic/08-dict.md
+  - 知识图谱: knowledge-graph/index.html
+  - 学习路线: routes/index.html
+  - 专题仓库: topics/index.html

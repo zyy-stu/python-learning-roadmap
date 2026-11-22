@@ -2,6 +2,12 @@
 
 [访问学习网站](https://zyy-stu.github.io/python-learning-roadmap/) · [在线知识图谱](https://zyy-stu.github.io/python-learning-roadmap/knowledge-graph/)
 
+## 本地预览
+
+运行 `python -m pip install -r requirements-docs.txt` 安装依赖，再运行 `python -m mkdocs serve` 预览。使用 `python -m pytest -q tests/basic` 验证基础示例和练习，使用 `python -m mkdocs build --strict` 检查发布构建。
+
+GitHub Pages 发布源使用 GitHub Actions。
+
 ## 项目介绍
 
 Python Learning Roadmap 是一套长期维护的中文开源教程。主仓库整理 Python 知识之间的先后关系、分阶段学习路线和统一编写规范。六个专题仓库分别承载教程、代码示例、练习与项目实践。学习者可以顺序完成基础路线，也可以根据前置知识进入适合自己的专题。
